@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GithubApi</string>
+    <string name="people">People</string>
+    <string name="repositories">Repositories</string>
+    <string name="content_description_star">star</string>
+    <string name="content_description_back">back</string>
+</resources>
