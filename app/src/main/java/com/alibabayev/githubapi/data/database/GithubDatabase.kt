@@ -9,7 +9,7 @@ import com.alibabayev.githubapi.data.database.dao.UserDao
 import com.alibabayev.githubapi.data.database.entity.RepoEntity
 import com.alibabayev.githubapi.data.database.entity.UserEntity
 
-@Database(entities = [UserEntity::class, RepoEntity::class], version = 3)
+@Database(entities = [UserEntity::class, RepoEntity::class], version = 1)
 @TypeConverters(DateConverter::class)
 abstract class GithubDatabase : RoomDatabase() {
     abstract fun userDao(): UserDao
